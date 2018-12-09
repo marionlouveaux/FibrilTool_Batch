@@ -4,7 +4,7 @@
 /////////////////////////////Marion Louveaux//////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 
-// This macro is an automated version of FibrilTool macro written by Arezki Boudaoud (see 2014, Boudaoud, Nature Protocols)
+// This macro is an automated version of FibrilTool macro written by Arezki Boudaoud (see Boudaoud et al., Nature Protocols 2014)
 // Put .png (or .tif) and RoiSet.zip in a unique directory (as many as you want) = "dir"
 // .png and RoiSet.zip must share the same name: ImgName.png and ImgName_RoiSet.zip
 // One RoiSet.zip = one .png
