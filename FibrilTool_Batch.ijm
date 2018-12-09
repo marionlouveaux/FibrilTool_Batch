@@ -1,14 +1,15 @@
 //////////////////////////////////////////////////////////////////////////////////
+///////////////////////////FibrilTool Batch macro/////////////////////////////////
 ///////////////////////Automation of FibrilTool macro/////////////////////////////
 /////////////////////////////Marion Louveaux//////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 
-//This macro is an automated version of FibrilTool macro written by Arezki Boudaoud (see 2014, Boudaoud, Nature Protocols)
-//Put .png and RoiSet.zip in a unique directory (as much as you want) = "dir"
+// This macro is an automated version of FibrilTool macro written by Arezki Boudaoud (see 2014, Boudaoud, Nature Protocols)
+// Put .png (or .tif) and RoiSet.zip in a unique directory (as many as you want) = "dir"
 // .png and RoiSet.zip must share the same name: ImgName.png and ImgName_RoiSet.zip
-//One RoiSet.zip = one .png
-//FibrilTool is executed on each .roi of the RoiSet
-//Results, raw data (new RoiSet) and Flattened images are saved in dir
+// One RoiSet.zip = one .png
+// FibrilTool is executed on each .roi of the RoiSet
+// Results, raw data (new RoiSet) and Flattened images are saved in dir
 
 
 
