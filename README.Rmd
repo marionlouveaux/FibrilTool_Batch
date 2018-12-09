@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 This code is an automated version of the Fiji [1] plugin FibrilTool [2, 3]. It was used for the first in [4]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation and quality of microtubules orientation on the set of ROI.
 
 ```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("./images/FibrilTool_Batch.png")
+knitr::include_graphics("images/FibrilTool_Batch.png")
 ```
 **The FibrilTool batch version of the Fibril Tool Fiji plugin allows to compute orientation and quality of orientation of microtubules for several ROIs (and several images) in one go.** (A) Raw image (see below Example data for more informations). (B) Raw image and Regions Of Interest (ROIs). (C) Raw image and orientation (red line) and quality of orientation (length of the line) of the microtubules for each ROI.
 
@@ -46,7 +46,7 @@ Drag and drop the .ijm file in Fiji [1]. Click on "Run".
 As in the manual version, select channels color of fibrils and channel color to draw mean orientation. Select also the input format of the images (.png, .tif or .tiff).    
 
 ```{r, echo=FALSE, out.width="22%", fig.align='center'}
-knitr::include_graphics("./images/starting_menu.png")
+knitr::include_graphics("images/starting_menu.png")
 ```
 
 

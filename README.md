@@ -5,7 +5,7 @@ Marion Louveaux
 
 This code is an automated version of the Fiji \[1\] plugin FibrilTool \[2, 3\]. It was used for the first in \[4\]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation and quality of microtubules orientation on the set of ROI.
 
-<img src="./images/FibrilTool_Batch.png" style="display: block; margin: auto;" /> **The FibrilTool batch version of the Fibril Tool Fiji plugin allows to compute orientation and quality of orientation of microtubules for several ROIs (and several images) in one go.** (A) Raw image (see below Example data for more informations). (B) Raw image and Regions Of Interest (ROIs). (C) Raw image and orientation (red line) and quality of orientation (length of the line) of the microtubules for each ROI.
+<img src="images/FibrilTool_Batch.png" style="display: block; margin: auto;" /> **The FibrilTool batch version of the Fibril Tool Fiji plugin allows to compute orientation and quality of orientation of microtubules for several ROIs (and several images) in one go.** (A) Raw image (see below Example data for more informations). (B) Raw image and Regions Of Interest (ROIs). (C) Raw image and orientation (red line) and quality of orientation (length of the line) of the microtubules for each ROI.
 
 How to cite
 -----------
@@ -35,7 +35,7 @@ Drag and drop the .ijm file in Fiji \[1\]. Click on "Run".
 2) Select Channels
 As in the manual version, select channels color of fibrils and channel color to draw mean orientation. Select also the input format of the images (.png, .tif or .tiff).
 
-<img src="./images/starting_menu.png" width="22%" style="display: block; margin: auto;" />
+<img src="images/starting_menu.png" width="22%" style="display: block; margin: auto;" />
 
 3) Macro is processing
 Do not click on your screen, let the macro work. As there is not batch mode for the moment, clicking may interfere with the definition of the active window. This step is very slow, do not hesitate to run it overnight. If process abort for unknown reason, do not hesitate to run macro again (without modifying anything). This solves the problem in most of the cases.
