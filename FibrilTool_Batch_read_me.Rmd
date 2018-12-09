@@ -1,5 +1,5 @@
 ---
-title: "Automated version of FibrilTool ImageJ/Fiji macro"
+title: "Automated version of the FibrilTool ImageJ/Fiji macro"
 author: "Marion Louveaux"
 date: "9 December 2018"
 output: github_document

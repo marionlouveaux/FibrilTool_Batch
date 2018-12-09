@@ -1,9 +1,9 @@
-Automated version of FibrilTool ImageJ/Fiji macro
+Automated version of the FibrilTool ImageJ/Fiji macro
 ================
 Marion Louveaux
 9 December 2018
 
-This code is an automated version of the Fiji \[1\] plugin FibrilTool \[2, 3\]. It was used for the first in \[4\]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation on the set of ROI.
+This code is an automated version of the Fiji \[1\] plugin FibrilTool \[2, 3\]. It was used for the first in \[4\]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation and quality of microtubules orientation on the set of ROI.
 
 <img src="./images/FibrilTool_Batch.png" style="display: block; margin: auto;" /> **The FibrilTool batch version of the Fibril Tool Fiji plugin allows to compute orientation and quality of orientation of microtubules for several ROIs (and several images) in one go.** (A) Raw image (see below Example data for more informations). (B) Raw image and Regions Of Interest (ROIs). (C) Raw image and orientation (red line) and quality of orientation (length of the line) of the microtubules for each ROI.
 
