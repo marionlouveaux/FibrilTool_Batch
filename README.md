@@ -3,12 +3,22 @@ Automated version of the FibrilTool ImageJ/Fiji macro
 Marion Louveaux
 9 December 2018
 
-This code is an automated version of the Fiji \[1\] plugin FibrilTool \[2, 3\]. It was used for the first in \[4\]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation and quality of microtubules orientation on the set of ROI.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2528872.svg)](https://doi.org/10.5281/zenodo.2528872)
+
+This code is an automated version of the Fiji \[1\] plugin FibrilTool \[2, 3\]. It was used for the first time in \[4\]. In this version, the user draw and save all ROIs first and then let the macro compute automatically microtubule orientation and quality of microtubules orientation on the set of ROI.
 
 <img src="images/FibrilTool_Batch.png" style="display: block; margin: auto;" /> **The FibrilTool batch version of the Fibril Tool Fiji plugin allows to compute orientation and quality of orientation of microtubules for several ROIs (and several images) in one go.** (A) Raw image (see below Example data for more informations). (B) Raw image and Regions Of Interest (ROIs). (C) Raw image and orientation (red line) and quality of orientation (length of the line) of the microtubules for each ROI.
 
 How to cite
 -----------
+
+To cite FibrilTool Batch, please refer to
+
+> Boudaoud A, Burian A, Borowska-Wykręt D, Uyttewaal M, Wrzalik R, Kwiatkowska D, and Hamant O: FibrilTool, an ImageJ plug-in to quantify fibrillar structures in raw microscopy images. Nat. Protoc. 2014, 9:457–463.
+
+and
+
+> Marion Louveaux, & Arezki Boudaoud. (2018, December 29). FibrilTool Batch: an automated version of the ImageJ/Fiji plugin FibrilTool (Version v1.0). Zenodo. <http://doi.org/10.5281/zenodo.2528872>
 
 Installation
 ------------
